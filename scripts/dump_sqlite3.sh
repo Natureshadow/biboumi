@@ -2,7 +2,7 @@
 
 sqlite3_args=$@
 
-function dump_table {
+dump_table() {
     table=$1
     columns=$2
     echo ".mode insert $table
